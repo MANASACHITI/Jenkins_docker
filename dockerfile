@@ -5,6 +5,6 @@ WORKDIR /app
 
 COPY . /app
 
-
+RUn javac Calculator.java
 
 CMD ["java","Calculator.java"]
